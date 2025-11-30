@@ -3,7 +3,7 @@ uvicorn[standard]==0.23.2
 sqlalchemy==2.0.22
 pydantic==1.10.11
 email-validator==1.3.1
-alembic==1.11.1        # optional: DB migrations (recommended for production)
-psycopg2-binary==2.9.7 # optional: PostgreSQL driver (only if you use Postgres)
+alembic==1.11.1        # optional: DB migrations
+psycopg2-binary==2.9.7 # optional: PostgreSQL driver
 python-dotenv==1.0.0   # optional: load DATABASE_URL and env vars from .env
 pytest==7.4.2          # optional: for tests
